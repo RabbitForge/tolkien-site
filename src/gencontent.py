@@ -39,6 +39,9 @@ def generate_page(from_path, template_path, dest_path, basepath):
     to_file = open(dest_path, "w")
     to_file.write(template)
 
+    print("TITLE:", title)
+    print("TITLE:", title)
+
 
 def extract_title(md):
     lines = md.split("\n")
